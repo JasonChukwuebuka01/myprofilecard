@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile Card | HNG Stage 1b</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <article class="profile-card" data-testid="test-profile-card">
+
+            <figure class="profile-avatar-container">
+                <img src="https://pbs.twimg.com/profile_images/1974044667697111040/v1OIxO58_400x400.jpg"
+                    alt="Obianyor Chukwuebuka Chinonso" class="profile-avatar" data-testid="test-user-avatar">
+            </figure>
+
+            <div class="profile-content">
+                <header>
+                    <h2 class="profile-name" data-testid="test-user-name">
+                        Jason Chukwuebuka Chinonso
+                    </h2>
+                    <p class="profile-bio" data-testid="test-user-bio">
+                        Multi-disciplinary Automation Engineer and Full-stack Developer passionate about industrial
+                        automation and software development.
+                    </p>
+                </header>
+
+                <div class="time-container">
+                    <strong>Current Epoch (ms):</strong>
+                    <span id="epoch-time" data-testid="test-user-time" aria-live="polite">
+                        Loading...
+                    </span>
+                </div>
+
+                <div class="lists-grid">
+                    <section>
+                        <h3>Hobbies</h3>
+                        <ul class="hobby-list" data-testid="test-user-hobbies">
+                            <li>Gaming</li>
+                            <li>Football</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Dislikes</h3>
+                        <ul class="dislike-list" data-testid="test-user-dislikes">
+                            <li>Arsenal winning EPL</li>
+                            <li>Placeholder Dislike 2</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <nav class="social-links" data-testid="test-user-social-links">
+                    <a href="https://x.com/mayIcodes" target="_blank" rel="noopener noreferrer"
+                        data-testid="test-user-social-twitter">
+                        Twitter
+                    </a>
+                    <a href="https://github.com/JasonChukwuebuka01" target="_blank" rel="noopener noreferrer"
+                        data-testid="test-user-social-github">
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/chukwuebuka-obianyor-4055b527a/" target="_blank"
+                        rel="noopener noreferrer" data-testid="test-user-social-linkedin">
+                        LinkedIn
+                    </a>
+                </nav>
+            </div>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
